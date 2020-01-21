@@ -28,7 +28,7 @@ ENV DISPLAY=:99
 RUN pip install selenium
 
 #real_browser
-RUN pip install git+https://github.com/ghoshben/realbrowserlocusts.git
+RUN pip install git+https://github.com/nickboucart/realbrowserlocusts.git
 
 RUN chmod +x docker_start.sh
 
